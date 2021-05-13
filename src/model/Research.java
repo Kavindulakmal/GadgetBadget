@@ -1,6 +1,6 @@
 package model;
 
-//Wickramasinghe T.W.M.K.L
+
 import java.sql.*;
 public class Research {
 	
@@ -69,7 +69,7 @@ public class Research {
 			Connection con = connect();
 			
 			if (con == null) {
-				return "Updated successfully."; //  //Error while connecting to the database for reading
+				return "Error while connecting to the database for reading"; //  //
 			}
 			
 			// Prepare the html table to be displayed
@@ -168,8 +168,8 @@ public class Research {
 			
 			Connection con = connect();
 			if (con == null) {
-				//return "Error while connecting to the database for deleting.";
-				return "Delete successfully";
+				return "Error while connecting to the database for deleting.";
+				
 			}
 			
 			// create a prepared statement
