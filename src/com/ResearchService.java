@@ -1,7 +1,6 @@
 package com;
 
-//Wickramasinghe T.W.M.K.L
-//researcherService
+
 import model.Research; 
 
 
